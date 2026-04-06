@@ -22,6 +22,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
 - Manual QA for feature acceptance when needed
+- **QA Engineers / Quality Leads** own test strategy and sign off on release readiness; defects are reported and tracked as issues/PRs
+- **Operations/DevOps/SRE** validate observability (logging, metrics, alerts) and deployment readiness as part of the execution workflow
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -30,8 +32,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Blocker Escalation
 - Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- Level 2: PM escalates to Product Lead and dependent teams; Engineering Manager/Tech Lead engaged for technical blockers
+- Level 3: Sponsor/Stakeholder-level escalation for business-impacting issues
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
